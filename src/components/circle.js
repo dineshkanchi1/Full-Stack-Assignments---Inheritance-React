@@ -10,17 +10,14 @@ import Shape from "./Shape";
 
 class Circle extends Shape {
   drawShape() {
-    console.log("Draw Circle");
+    return "Draw Circle";
   }
   calculateArea() {
-    console.log("Circle Area");
+    return "Circle Area";
   }
   colorProperty() {
-    console.log("Circle Color");
-  }
-  render() {
-    return <h1>Circle</h1>;
+    return "Circle Color";
   }
 }
 
-export default Cirlce;
+export default Circle;
