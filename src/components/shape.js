@@ -4,13 +4,15 @@
 import React from "react";
 
 class Shape extends React.Component {
+  state = { color: "" };
   drawShape() {
+    super.drawShape();
     return "shape draw";
   }
   calculateArea() {
+    super.calculateArea();
     return "shape area";
   }
-  color = "";
   render() {
     return null;
   }

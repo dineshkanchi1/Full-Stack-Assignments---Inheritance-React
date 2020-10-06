@@ -4,19 +4,18 @@
 
 
 // export
-
 import React from "react";
 import Shape from "./Shape";
 
 class Circle extends Shape {
-  drawShape() {
-    return "Draw Circle";
-  }
   calculateArea() {
-    return "Circle Area";
+    return "circle area";
   }
-  color = "red";
+  render() {
+    return null;
+  }
 }
 
 export default Circle;
+
 
