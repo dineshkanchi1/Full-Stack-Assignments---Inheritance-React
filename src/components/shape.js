@@ -3,14 +3,17 @@
 // export class
 import React from "react";
 
-class Hello extends React.Component {
-    drawShape() {
-        return "shape draw";
-    }
-    calculateArea(){
-        return "shape area";
-    }
-    let color="";
+class Shape extends React.Component {
+  drawShape() {
+    return "shape draw";
+  }
+  calculateArea() {
+    return "shape area";
+  }
+  color = "";
+  render() {
+    return null;
+  }
 }
 
-export default Hello;
+export default Shape;

@@ -15,9 +15,8 @@ class Circle extends Shape {
   calculateArea() {
     return "Circle Area";
   }
-  colorProperty() {
-    return "Circle Color";
-  }
+  color = "red";
 }
 
 export default Circle;
+
