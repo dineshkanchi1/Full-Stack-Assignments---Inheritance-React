@@ -15,7 +15,7 @@ class Circle extends Shape {
   calculateArea() {
     console.log("Circle Area");
   }
-  color() {
+  colorProperty() {
     console.log("Circle Color");
   }
   render() {

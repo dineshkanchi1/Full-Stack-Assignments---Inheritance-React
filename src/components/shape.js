@@ -10,7 +10,7 @@ class Shape extends React.Component {
   calculateArea() {
     console.log("Area!!!");
   }
-  color() {
+  colorProperty() {
     console.log("Color!!!");
   }
   render() {
